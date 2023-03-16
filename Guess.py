@@ -3,11 +3,11 @@
 import random
 import time
 
-def numero_escondido():
+def guess_number():
 
-    dimensao = int(input("\nDefine the limit: "))
+    limit = int(input("\nDefine the limit: "))
 
-    number = random.randint(1, dimensao)
+    number = random.randint(1, limit)
 
     try_number = 0      # variavel referente a escolha do usuario
     tries = 3           # variavel tentativas
@@ -19,7 +19,7 @@ def numero_escondido():
     while try_number != number and tries > 0:
 
         print(f"You have {tries} tries!!!")
-        try_number = int(input(f"Choose a number between 0 and {dimensao}: "))
+        try_number = int(input(f"Choose a number between 0 and {limit}: "))
 
         if try_number > number:
             print(f"{try_number} is greater than the guess number\n")
@@ -38,4 +38,4 @@ def numero_escondido():
         elif result == 1:
             print(f"Congratulations, you guessed the number {number}")
 
-numero_escondido()
+guess_number()
