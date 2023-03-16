@@ -14,6 +14,7 @@ def auth():
             print("\nSomething it's wrong! \nPlease type 'R' for Rock,'P' for Paper or 'S' for Scissors: ")
 
 
+# Inicio
 def play_rps():
     
     
