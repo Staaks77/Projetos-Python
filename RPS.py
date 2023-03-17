@@ -2,7 +2,7 @@
 
 import random
 
-# Autenticando o valor digitador pelo usuário
+# Autenticando o valor digitador pelo usuário - (R,P,S)
 def auth():
 
 
@@ -12,6 +12,18 @@ def auth():
             return choice
         else:
             print("\nSomething it's wrong! \nPlease type 'R' for Rock,'P' for Paper or 'S' for Scissors: ")
+
+# Autenticando o valor digitado pelo usuário - (Y/N)
+def again():
+
+    while True:
+        try_again = input("\nWould you like to play again(Y/N)? ").upper()
+        if try_again == 'Y':
+            return False
+        elif try_again == 'N':
+            return True
+        else: 
+            print("Something it's wrong, please enter a valid value")
 
 
 # Inicio
@@ -38,20 +50,13 @@ def play_rps():
         
         if user == computer:
             print("Tie!")
-            try_again = input("\nWould you like to try again(Y/N)? ").upper()
-            if try_again == 'N':
-                exit_choice = True
-            
+            exit_choice = again()
         elif (user == 'P' and computer == 'R') or (user == 'T' and computer == 'P') or (user == 'R' and computer == 'T'):
             print("Congrats, you win!")
-            try_again = input("\nWould you like to play again(Y/N)? ").upper()
-            if try_again == 'N':
-                exit_choice = True
+            exit_choice = again()
         else:
             print("You lose, try again.")
-            try_again = input("\nWould you like to try again(Y/N)? ").upper()
-            if try_again == 'N':
-                exit_choice = True
+            exit_choice = again()
     else:
         print("\nThank you to play the game!!!")
 
