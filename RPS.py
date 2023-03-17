@@ -7,11 +7,11 @@ def auth():
 
 
     while True:
-        choice = input("\n'R' for Rock,'P' for Paper or 'S' for Scissors: ").upper()
+        choice = input("\nEnter 'R' for Rock,'P' for Paper or 'S' for Scissors: ").upper()
         if choice in ['R','P','S']:
             return choice
         else:
-            print("\nSomething it's wrong! \nPlease type 'R' for Rock,'P' for Paper or 'S' for Scissors: ")
+            print("\nSomething it's wrong!")
 
 # Autenticando o valor digitado pelo usuário - (Y/N)
 def again():
