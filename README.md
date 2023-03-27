@@ -1,5 +1,5 @@
 # Projetos-Python
-Alguns projetos em Python(Básico, Intermediário e Avançado)
+Alguns projetos em Python(Iniciante, Intermediário e Avançado)
 
 Separei esse repositório para os projetos que eu já desenvolvi ao longo da jornada de aprendizado em Python.
 
