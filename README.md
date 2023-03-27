@@ -8,5 +8,7 @@ Aqui você poderá encontrar projetos básicos, intermediários e avançados.
 Projetos já desenvolvidos:
 
 1 - Dice.py - Rolagem de dados
+
 2 - Guess.py - Descubra o número
+
 3 - RPG.py - Pedra, papel ou tesoura
