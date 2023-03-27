@@ -11,4 +11,4 @@ Projetos já desenvolvidos:
 
 2 - Guess.py - Descubra o número
 
-3 - RPG.py - Pedra, papel ou tesoura
+3 - RPS.py - Pedra, papel ou tesoura
