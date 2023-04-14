@@ -10,3 +10,5 @@ Projetos já desenvolvidos:
 2 - Guess.py - Descubra o número
 
 3 - RPS.py - Pedra, papel ou tesoura
+
+4 - PassGen.py - Gerador de senhas
