@@ -11,7 +11,7 @@ def complexidade_I():
     senha = ''
     while True:
         if len(senha) < 5:
-            senha = senha + str(random.randint(0,9))
+            senha = senha + random.choice(string.digits)
         else:
             break
     return senha
