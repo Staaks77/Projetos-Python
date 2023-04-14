@@ -1,6 +1,6 @@
-# Play a dice
+# Role um dado
 
-# biblioteca
+# Biblioteca
 import random
 
 # validação do valor digitado pelo usuario
@@ -15,7 +15,7 @@ def auth_choose():
         else:
             print("\nSomething it's wrong, please enter a valid number")
 
-# Play
+# Inicio
 def dice():
 
     choice = auth_choose()
